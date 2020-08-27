@@ -7,6 +7,7 @@
 ### Terminal
 1. Download Iterm [nightly](https://www.iterm2.com/downloads/nightly/).
 2. Set Iterm theme to `Minimal`.
+3. zsh & [powerline10k](https://github.com/romkatv/powerlevel10k)
 
 ### Dotfile
 ```shell
