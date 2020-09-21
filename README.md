@@ -7,3 +7,4 @@ Today I learned
 - [2020-08-30-tls-and-curl](./2020-08-30-tls-and-curl.md)
 - [2020-09-13-hive-metastore-init-and-upgrade](2020-09-13-hive-metastore-init-and-upgrade.md)
 - [2020-09-18-data-oriented-programming](2020-09-18-data-oriented-programming.md)
+- [2020-09-21-scala-universe](2020-09-21-scala-universe.md)
