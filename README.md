@@ -8,3 +8,4 @@ Today I learned
 - [2020-09-13-hive-metastore-init-and-upgrade](2020-09-13-hive-metastore-init-and-upgrade.md)
 - [2020-09-18-data-oriented-programming](2020-09-18-data-oriented-programming.md)
 - [2020-09-21-scala-universe](2020-09-21-scala-universe.md)
+- [2020-10-06-case-sensitivity-in-hive-and-spark](2020-10-06-case-sensitivity-in-hive-and-spark.md)
