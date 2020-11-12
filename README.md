@@ -10,3 +10,5 @@ Today I learned
 - [2020-09-21-scala-universe](2020-09-21-scala-universe.md)
 - [2020-10-06-case-sensitivity-in-hive-and-spark](2020-10-06-case-sensitivity-in-hive-and-spark.md)
 - [2020-10-16-data-university-at-airbnb](2020-10-16-data-university-at-airbnb.md)
+- [2020-11-06-vldb-delta-lake](2020-11-06-vldb-delta-lake.md)
+- [2020-11-12-slowly-changing-dimension](2020-11-12-slowly-changing-dimension.md)
