@@ -74,6 +74,14 @@ I could see every detail even when the show was pretty dark, in terms of lightin
     <img src="./imgs/dark2.png" height=200>
 </p>
 
+#### Cityscapes
+Moscow wasn't portrayed as some evil dystopian society which was refreshing. Moscow, New York, Paris all were filmed with their unique vibes.
+
+<p align="center">
+    <img src="./imgs/moscow1.png" height=200>
+    <img src="./imgs/moscow2.png" height=200>
+</p>
+
 ---
 
 ## Random Thoughts
