@@ -15,3 +15,4 @@ Today I learned
 - [2020-11-18-data-mesh](2020-11-18-data-mesh.md)
 - [2020-12-05-internals-of-k8s-code](2020-12-05-internals-of-k8s-code.md)
 - [2020-12-09-scala-local-cache](2020-12-09-scala-local-cache.md)
+- [2020-12-19-hive-metastore-korean-support](2020-12-19-hive-metastore-korean-support.md)
