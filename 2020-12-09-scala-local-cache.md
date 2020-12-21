@@ -1,6 +1,6 @@
 # Local Cache in Scala
 
-Today I wrote a Spark streaming ETL job in Scala and had to use a local cache which contained `io.delta.tables.DeltaTable` objects. First thing came to my mind was `scala.collection.mutable.map[String, DeltaTable]`. However, folks in StackOverflow recommended to use `scala.collection.concurrent.TrieMap` instead for better thread-safety and etcetera. So I follwed their sage advice and used `TrieMap`. 
+Today I wrote a Spark streaming ETL job in Scala and had to use a local cache which contained `io.delta.tables.DeltaTable` objects. First thing came to my mind was `scala.collection.mutable.map[String, DeltaTable]`. However, folks in StackOverflow recommended to use `scala.collection.concurrent.TrieMap` instead for better thread-safety and etcetera. So I followed their sage advice and used `TrieMap`. 
 
 `TrieMap` implements `getOrElseUpdate` method. It is self-explanatory, but here is the code.
 
@@ -42,7 +42,7 @@ Today I wrote a Spark streaming ETL job in Scala and had to use a local cache wh
   }
 ```
 
-As you can see, `op` only gets evaluated when `k` does not exist. However, I wasn't sure if the lazy evaluation would work with this following code.
+As you can see, `op` only gets evaluated when `k` does not exist. However, I wasn't sure if the lazy evaluation would work with the following code.
 
 ```scala
 import scala.collection.concurrent.TrieMap
@@ -66,6 +66,6 @@ deltaTableCache.getOrElseUpdate("a", DeltaTable.forName("st_test.streaming_test"
 
 ---
 
-Results are down below. To summarize, `getOrElseUpdate`'s lazy functionality does work great. However, this was unnecesasry because `DeltaTable.forName` already cache's `DeltaTable` in memory. 🤷‍♂️
+Results are down below. To summarize, `getOrElseUpdate`'s lazy functionality does work great. However, this was unneccesasry because `DeltaTable.forName` already cache's `DeltaTable` in memory. 🤷‍♂️
 
 ![cache](./imgs/cache.png)

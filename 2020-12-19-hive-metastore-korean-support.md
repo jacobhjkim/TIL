@@ -1,12 +1,12 @@
 # Hive Metastore Korean Support
 
-At PUBG all databases, tables and columns are in english. However, the comments for the columns are sometimes in Korean. Which is why I needed to modify the current Hive metastore RDS to support `utf8` rather than the defualt `latin1`.
+At PUBG all databases, tables, and columns are in English. However, the comments for the columns are sometimes in Korean. This is why I needed to modify the current Hive metastore RDS to support `utf8` rather than the default `latin1`.
 
 ---
 
 ## 1. Change RDS parameters
 Here is an example terraform code for Hive metastore RDS' parameters.
-Mostly I followed steps listed here [Best practices for configuring parameters for Amazon RDS for MySQL](https://aws.amazon.com/blogs/database/best-practices-for-configuring-parameters-for-amazon-rds-for-mysql-part-3-parameters-related-to-security-operational-manageability-and-connectivity-timeout/)
+Mostly I followed the steps listed here [Best practices for configuring parameters for Amazon RDS for MySQL](https://aws.amazon.com/blogs/database/best-practices-for-configuring-parameters-for-amazon-rds-for-mysql-part-3-parameters-related-to-security-operational-manageability-and-connectivity-timeout/)
 
 
 ```hcl
