@@ -17,4 +17,5 @@ Today I learned
 - [2020-12-09-scala-local-cache](2020-12-09-scala-local-cache.md)
 - [2020-12-19-hive-metastore-korean-support](2020-12-19-hive-metastore-korean-support.md)
 - [2020-12-31-platform-steve-yegge](2020-12-31-platform-steve-yegge.md)
-- [2021-01-01-go-garbage-collection.md](2021-01-01-go-garbage-collection)
+- [2021-01-01-go-garbage-collection](2021-01-01-go-garbage-collection.md)
+- [2021-01-09-startup-trends](2021-01-09-startup-trends.md)
