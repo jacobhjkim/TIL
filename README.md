@@ -19,3 +19,4 @@ Today I learned
 - [2020-12-31-platform-steve-yegge](2020-12-31-platform-steve-yegge.md)
 - [2021-01-01-go-garbage-collection](2021-01-01-go-garbage-collection.md)
 - [2021-01-09-startup-trends](2021-01-09-startup-trends.md)
+- [2021-01-10-real-time-backends](2021-01-10-real-time-backends.md)
