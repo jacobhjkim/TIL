@@ -22,3 +22,4 @@ Today I learned
 - [2021-01-10-real-time-backends](2021-01-10-real-time-backends.md)
 - [2021-01-23-ray](2021-01-23-ray.md)
 - [2021-01-26-how-to-evaluate-startup-ideas](2021-01-26-how-to-evaluate-startup-ideas.md)
+- [2021-02-06-ml-inference](2021-02-06-ml-inference.md)
