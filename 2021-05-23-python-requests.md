@@ -1,6 +1,6 @@
 # [WIP] Python request package
 
-I don't fully know how an HTTP request works in Python. All I know is how to work with Python's `Requests` package. Therefore, I am attempting to understand how an HTTP request works in Pyhton. (I wanted to go down this rabbit hole.)
+I don't fully know how an HTTP request works in Python. All I know is how to work with Python's `Requests` package. Therefore, I am attempting to understand how an HTTP request works in Pyhton. (I wanted to go down this rabbit hole. blah blah)
 
 If you are a Python dev, you have probably used or heard of the `Requests` package. According to the [official doc](https://docs.python-requests.org/en/master/):
 > Requests is an elegant and simple HTTP library for Python, built for human beings.
@@ -67,3 +67,5 @@ Now I cloned [`python/cpython`](https://github.com/python/cpython) to understand
                           Request-sent
 ```
 As I understand this diagram, each line of encoded header gets sent to the server by `putheader()` and `endheaders()` checks if all lines of headers are properly sent. Then the `data` gets is sent by `send()`. Yet again, `send()` didn't actually send the request, instead it called `sock.sendall()` from socket library. Apparantly I was doing socket programming this whole time?
+
+TODO...
