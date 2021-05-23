@@ -66,6 +66,8 @@ Now I cloned [`python/cpython`](https://github.com/python/cpython) to understand
                             v
                           Request-sent
 ```
-As I understand this diagram, each line of encoded header gets sent to the server by `putheader()` and `endheaders()` checks if all lines of headers are properly sent. Then the `data` gets is sent by `send()`. Yet again, `send()` didn't actually send the request, instead it called `sock.sendall()` from socket library. Apparantly I was doing socket programming this whole time?
+As I understand this diagram, each line of encoded header gets sent to the server by `putheader()` and `endheaders()` checks if all lines of headers are properly sent. Then the `data` gets is sent by `send()`. Yet again, `send()` didn't actually send the request, instead it called `sock.sendall()` from socket library. [http/client.py#L992](https://github.com/python/cpython/blob/main/Lib/http/client.py#L992)
+
+
 
 TODO...
